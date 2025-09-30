@@ -14,7 +14,7 @@ jobs:
       - name: Run UFT Test using FTToolsLauncher
         run: |
           echo "Running UFT Test: Blank"
-          & "C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin\FTToolsLauncher.exe" -paramfile "${{ github.workspace }}\uft-run-params.txt"
+          & "C:\Tools\FTToolsLauncher\FTToolsLauncher.exe" -paramfile "${{ github.workspace }}\uft-run-params.txt"
 
       - name: Upload Test Results
         uses: actions/upload-artifact@v4
