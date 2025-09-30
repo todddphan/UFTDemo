@@ -1,6 +1,7 @@
 [General]
 RunMode=Normal
 ResultLocation=Results
+runType=FileSystem
 
 [Test1]
 TestPath=Blank
