@@ -1,0 +1,23 @@
+name: Run UFT Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-uft-test:
+    runs-on: [self-hosted, windows]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Run UFT Test using FTToolsLauncher
+        run: |
+          echo "Running UFT Test: Blank"
+          "C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin\FTToolsLauncher.exe" -paramfile "${{ github.workspace }}\uft-run-params.txt"
+
+      - name: Upload Test Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: UFT-Test-Results
+          path: Results

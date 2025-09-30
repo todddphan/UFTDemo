@@ -1,0 +1,6 @@
+[General]
+RunMode=Normal
+ResultLocation=Results
+
+[Test1]
+TestPath=Blank
