@@ -17,7 +17,7 @@ jobs:
           "C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin\FTToolsLauncher.exe" -paramfile "${{ github.workspace }}\uft-run-params.txt"
 
       - name: Upload Test Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: UFT-Test-Results
           path: Results
