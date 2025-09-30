@@ -2,6 +2,7 @@
 RunMode=Normal
 ResultLocation=Results
 runType=FileSystem
+ResultLocation=Results\Blank_Run
 
 [Test1]
 TestPath=Blank
