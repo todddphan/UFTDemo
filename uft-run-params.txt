@@ -1,7 +1,7 @@
 [General]
 RunMode=Normal
 runType=FileSystem
-ResultLocation=Results\Blank_Run
+ResultLocation=C:\VIP\Demos\Github\UFTDemo\Results\Blank_Run
 
 [Test1]
-TestPath=Blank
+TestPath=Blanknono 
