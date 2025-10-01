@@ -1,7 +1,7 @@
 [General]
 RunMode=Normal
 runType=FileSystem
-resultsFilename=C:\\VIP\\Demos\\Github\\UFTDemo\\Results\\Blank_Run\\TestRun1.html
+resultsFilename=.\\Results\\Blank_Run\\TestRun1.html
 
 [Test1]
 Test1=C:\\VIP\\Demos\\Github\\UFTDemo\\Blank
