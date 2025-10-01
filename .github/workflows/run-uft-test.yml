@@ -20,4 +20,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: TestRun1
-          path: Results/Blank_Run
+          path: ${{ github.workspace }}/Results/Blank_Run/
